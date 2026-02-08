@@ -73,7 +73,7 @@
 
 //   // Check for newly created project from onboarding
 //   useEffect(() => {
-//     const storedData = localStorage.getItem("regtech_data");
+//     const storedData = localStorage.getItem("compliancego_data");
 //     if (storedData) {
 //       const data = JSON.parse(storedData);
 //       // Check if this project already exists (by checking if it was just created)

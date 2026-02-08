@@ -92,7 +92,7 @@ const Auth = () => {
             <div className="w-12 h-12 rounded-xl bg-white/10 backdrop-blur flex items-center justify-center">
               <Scale className="w-6 h-6 text-white" />
             </div>
-            <span className="text-2xl font-display font-bold text-white">RegTech</span>
+            <span className="text-2xl font-display font-bold text-white">ComplianceGo</span>
           </Link>
 
           <motion.div
@@ -106,7 +106,7 @@ const Auth = () => {
               <span className="text-accent">Starts Here</span>
             </h1>
             <p className="text-lg text-white/70 mb-10 max-w-md">
-              Join thousands of founders who trust RegTech to navigate India's regulatory landscape with confidence.
+              Join thousands of founders who trust ComplianceGo to navigate India's regulatory landscape with confidence.
             </p>
           </motion.div>
 
@@ -135,7 +135,7 @@ const Auth = () => {
             className="mt-12 p-4 rounded-xl bg-white/10 backdrop-blur border border-white/20"
           >
             <p className="text-sm text-white/70 mb-2">Demo Credentials:</p>
-            <p className="text-white font-mono text-sm">Email: demo@regtech.com</p>
+            <p className="text-white font-mono text-sm">Email: demo@compliancego.com</p>
             <p className="text-white font-mono text-sm">Password: demo123</p>
           </motion.div>
         </div>
@@ -149,7 +149,7 @@ const Auth = () => {
             <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
               <Scale className="w-5 h-5 text-white" />
             </div>
-            <span className="text-xl font-display font-bold text-primary">RegTech</span>
+            <span className="text-xl font-display font-bold text-primary">ComplianceGo</span>
           </Link>
 
           <AnimatePresence mode="wait">
@@ -289,7 +289,7 @@ const Auth = () => {
             className="mt-6 p-4 rounded-xl bg-primary/5 border border-primary/10 lg:hidden"
           >
             <p className="text-sm text-muted-foreground mb-1">Demo Credentials:</p>
-            <p className="text-foreground font-mono text-sm">demo@regtech.com / demo123</p>
+            <p className="text-foreground font-mono text-sm">demo@compliancego.com / demo123</p>
           </motion.div>
         </div>
       </div>

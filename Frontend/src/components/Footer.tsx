@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-lg gradient-teal flex items-center justify-center">
                 <Scale className="w-5 h-5 text-accent-foreground" />
               </div>
-              <span className="text-xl font-display font-bold">RegTech</span>
+              <span className="text-xl font-display font-bold">ComplianceGo</span>
             </Link>
             <p className="text-primary-foreground/70 text-sm max-w-sm">
               Your GPS for navigating India's regulatory landscape. From idea to incorporated, we make compliance simple.
@@ -43,7 +43,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/10 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-primary-foreground/60">
-            © 2026 RegTech. All rights reserved.
+            © 2026 ComplianceGo. All rights reserved.
           </p>
           <p className="flex items-center gap-2 text-sm text-primary-foreground/60">
             Made with <Heart className="w-4 h-4 text-accent fill-accent" /> for India's Founders

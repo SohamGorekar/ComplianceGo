@@ -63,7 +63,7 @@
 //   const handleLoadingComplete = () => {
 //     setIsLoading(false);
 //     // Store data in localStorage for dashboard
-//     localStorage.setItem("regtech_data", JSON.stringify({
+//     localStorage.setItem("compliancego_data", JSON.stringify({
 //       projectName,
 //       projectDescription,
 //       sector,

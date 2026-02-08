@@ -52,7 +52,7 @@ const Navbar = () => {
               <Scale className="w-5 h-5 text-accent-foreground" />
             </div>
             <span className="text-xl font-display font-bold text-primary">
-              RegTech
+              ComplianceGo
             </span>
           </Link>
 

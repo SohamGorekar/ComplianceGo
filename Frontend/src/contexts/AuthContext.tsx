@@ -28,8 +28,8 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 
   // Load token and user from localStorage on mount
   useEffect(() => {
-    const storedToken = localStorage.getItem('regtech_token');
-    const storedUser = localStorage.getItem('regtech_user');
+    const storedToken = localStorage.getItem('compliancego_token');
+    const storedUser = localStorage.getItem('compliancego_user');
 
     if (storedToken && storedUser) {
       setToken(storedToken);
@@ -53,11 +53,11 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       if (data.success && data.token && data.user) {
         setToken(data.token);
         setUser(data.user);
-        localStorage.setItem('regtech_token', data.token);
-        localStorage.setItem('regtech_user', JSON.stringify(data.user));
+        localStorage.setItem('compliancego_token', data.token);
+        localStorage.setItem('compliancego_user', JSON.stringify(data.user));
         
         // Clean up old localStorage keys
-        localStorage.removeItem('regtech_registered_users');
+        localStorage.removeItem('compliancego_registered_users');
         
         return { success: true };
       } else {
@@ -84,8 +84,8 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
       if (data.success && data.token && data.user) {
         setToken(data.token);
         setUser(data.user);
-        localStorage.setItem('regtech_token', data.token);
-        localStorage.setItem('regtech_user', JSON.stringify(data.user));
+        localStorage.setItem('compliancego_token', data.token);
+        localStorage.setItem('compliancego_user', JSON.stringify(data.user));
         return { success: true };
       } else {
         return { success: false, error: data.error || 'Login failed' };
@@ -99,8 +99,8 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const logout = () => {
     setUser(null);
     setToken(null);
-    localStorage.removeItem('regtech_token');
-    localStorage.removeItem('regtech_user');
+    localStorage.removeItem('compliancego_token');
+    localStorage.removeItem('compliancego_user');
   };
 
   return (
