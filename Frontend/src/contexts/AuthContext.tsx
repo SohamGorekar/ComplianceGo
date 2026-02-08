@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://compliancego.onrender.com/api';
 
 interface User {
   id: string;
